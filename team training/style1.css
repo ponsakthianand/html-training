@@ -1,0 +1,91 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    width:100%;
+    font-family:'poppins',sans-serif;
+}
+.bold{text-align: start;
+    transition-property: opacity, transform;
+    font-family: "Poppins variant6", Tofu;
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal;
+    font-optical-sizing: auto;
+    opacity: 1;
+    line-height: initial;
+    transition-duration: 350;
+    font-size:30px;
+} 
+#navbar{
+    position:sticky;
+    top:0;
+    background-color: white;
+    z-index: 10;
+} 
+li{
+    padding: 5px;
+
+}a
+a{
+    margin-right:28px;
+    font-size:15px;
+    font-weight:bold;
+    border:2px solid transparent;
+}
+.nav-link:hover{
+    border-bottom: 2px solid blueviolet;
+}
+section{
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    display: flex;
+    transform: translate(120px,10px);
+    transition: 1s;
+    border-radius: 20px;
+}
+/*----------------home-------------*/
+
+span{
+    color:blue;
+    font-weight: bold;
+}
+p{
+    font-size:18px;
+}
+/*-----------about------*/
+
+#About img{
+    width:25rem;
+    height:25rem;
+    border-radius:20px;
+    transform: translate(5px,10px);
+}
+
+/*------services--------*/
+
+.card img{
+    height:200px;
+    transform: translate(0px,10px);
+    
+}
+.inner{
+    overflow:hidden;
+}
+.card img:hover{
+    transform: scale(1,2);
+    transition: 1s;
+}
+
+/*-----contact--------*/
+
+form{
+    padding:40px;
+    box-shadow:2px 2px 5px rgba(0,0,0,.2),
+               -1px -1px 5px rgba(0,0,0,.05);
+    border-radius: 30px;
+}

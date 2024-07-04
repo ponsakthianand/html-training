@@ -1,0 +1,41 @@
+.card {
+  background: #fff;
+}
+
+.card a {
+  color: #ddd;
+}
+
+.card a span {
+  color: red;
+}
+
+$primarycolor: #fff;
+$seco: #ddd;
+$war: red;
+
+.card {
+  background: $primarycolor;
+  a {
+    color: $seco;
+    span {
+      color: $war;
+    }
+  }
+}
+
+.box {
+  width: 800px;
+  background-color: #bfd3b7;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.header {
+  @extend .box;
+  padding: 30px;
+}
